@@ -1,0 +1,12 @@
+{
+  "name": "Headtracker Alici",
+  "version": "ae0d82a",
+  "builds": [{
+    "chipFamily": "ESP32-C3",
+    "parts": [
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/bootloader.bin", "offset": 0 },
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/partitions.bin", "offset": 32768 },
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/firmware.bin", "offset": 65536 }
+    ]
+  }]
+}
