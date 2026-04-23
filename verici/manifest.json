@@ -1,0 +1,12 @@
+{
+  "name": "Headtracker Verici",
+  "version": "d53c614",
+  "builds": [{
+    "chipFamily": "ESP32-C3",
+    "parts": [
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/verici/bootloader.bin", "offset": 0 },
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/verici/partitions.bin", "offset": 32768 },
+      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/verici/firmware.bin", "offset": 65536 }
+    ]
+  }]
+}
