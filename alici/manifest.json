@@ -1,6 +1,6 @@
 {
   "name": "Headtracker Alici",
-  "version": "20c9c8a",
+  "version": "5671591",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
