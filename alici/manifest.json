@@ -1,12 +1,22 @@
 {
   "name": "Headtracker Alici",
-  "version": "51b3d46",
-  "builds": [{
-    "chipFamily": "ESP32-C3",
-    "parts": [
-      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/bootloader.bin", "offset": 0 },
-      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/partitions.bin", "offset": 32768 },
-      { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/firmware.bin", "offset": 65536 }
-    ]
-  }]
+  "version": "20c9c8a",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32c3/bootloader.bin", "offset": 0 },
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32c3/partitions.bin", "offset": 32768 },
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32c3/firmware.bin",   "offset": 65536 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32/bootloader.bin", "offset": 4096 },
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32/partitions.bin", "offset": 32768 },
+        { "path": "https://raw.githubusercontent.com/savas8008/headtracker-public/main/alici/esp32/firmware.bin",   "offset": 65536 }
+      ]
+    }
+  ]
 }
