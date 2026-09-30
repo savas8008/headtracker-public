@@ -1,6 +1,6 @@
 {
   "name": "Headtracker Verici",
-  "version": "c148133",
+  "version": "5f2f103",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
